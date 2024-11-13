@@ -258,8 +258,14 @@ main{
         position: static;
         width: auto;
     }
-    /* Some Facet */
-    
+    /* Some facts */
+    .facts{
+        padding: 20px;
+    }
+    .icon-container{
+        flex-direction: column;
+        gap: 20px;
+    }
 
 
     
@@ -300,6 +306,17 @@ main{
         width: fit-content;
         right: 0px ;
         top: -70px;
+    }
+    .facts{
+        padding: 50px;
+    }
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+    .icon{
+        width: 85%;
     }
 
 }
