@@ -4,6 +4,7 @@ body{
     font-weight: weight;
     font-style: normal;
 }
+/* header */
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 30px 150px;
@@ -215,9 +216,44 @@ main{
     font-size: 1rem;
     font-weight: 600;
 }
-
+/* sponsor style */
+.sponsors-description{
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.sponsor-pera{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sponsor-logo{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+/* footer  */
+.footer-end{
+    margin: 80px 150px;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+.end-pera{
+    text-align: center;
+    color: #727272;
+    padding: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 /* responsive  styles*/
+
 /* mobile */
 
 @media screen and (max-width:576px) {
@@ -229,7 +265,7 @@ main{
     }
     nav ul{
         padding: 0px;
-        gap: 20px;
+        gap: 12px;
     }
     /* main  */
     .teams-container{
@@ -264,7 +300,19 @@ main{
     }
     .icon-container{
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
+    }
+    .icon{
+        width: 70%;
+    }
+    /* sponsor  */
+    .sponsor-logo{
+        flex-direction: column;
+        padding: 20px;
+    }
+    /* footer  */
+    .footer-end{
+        margin: 20px;
     }
 
 
@@ -290,6 +338,7 @@ main{
     .teams-img img{
         width: 100%;
     }
+    /* features */
     .features-container{
         flex-direction: column;
         padding: 20px;
@@ -307,6 +356,7 @@ main{
         right: 0px ;
         top: -70px;
     }
+    /* facts */
     .facts{
         padding: 50px;
     }
@@ -316,7 +366,16 @@ main{
         gap: 40px;
     }
     .icon{
-        width: 85%;
+        width: 80%;
+    }
+    /* sponsor  */
+    .sponsor-logo{
+        flex-direction: column;
+        padding: 50px;
+    }
+    /* footer  */
+    .footer-end{
+        margin: 50px;
     }
 
 }
